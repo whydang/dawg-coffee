@@ -20,7 +20,7 @@ h2 {
 	color: #BC6026;
 }
 
-p {
+#heading p {
 	display: none;
 }
 
@@ -62,11 +62,16 @@ nav {
 		font-size: 20px;
 	}
 
-	.heading {
-		background-image: url('../img/background-sm.jpg');
-		background-repeat: none;
+	#heading {
 		color: white;
 		text-align: right;
+		background-image: url('../img/background-sm.jpg');
+		background-repeat: no-repeat;
+		height: 550px;
+	}
+
+	#heading p {
+		display: block;
 	}
 
 	h2 {
@@ -84,13 +89,17 @@ nav {
 }
 
 @media screen and (min-width: 992px) {
-	.heading {
+	#heading {
 		background-image: url("../img/background-md.jpg");
+		background-repeat: none;
+		height: 550px;
 	}
 }
 
 @media screen and (min-width: 1200px) {
-	.heading {
+	#heading {
 		background-image: url("../img/background-lg.jpg");
+		background-repeat: none;
+		height: 550px;
 	}
 }
