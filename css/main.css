@@ -13,16 +13,21 @@ body {
 
 h1 {
 	font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
+	padding-top: 3em;
 }
 
 h2 {
 	color: #BC6026;
 }
 
+p {
+	display: none;
+}
+
 svg {
 	margin-left: 15px;
 	height: 1em;
-	color: white;
+	fill: white;
 }
 
 svg:hover {
@@ -44,6 +49,7 @@ nav {
 	position: fixed;
 	background-color: #181C22;
 	font-size: 16px;
+	width: 100%;
 }
 
 .nav-bar > li {
@@ -54,6 +60,13 @@ nav {
 @media screen and (min-width: 768px) {
 	body {
 		font-size: 20px;
+	}
+
+	.heading {
+		background-image: url('../img/background-sm.jpg');
+		background-repeat: none;
+		color: white;
+		text-align: right;
 	}
 
 	h2 {
@@ -70,3 +83,14 @@ nav {
 	}
 }
 
+@media screen and (min-width: 992px) {
+	.heading {
+		background-image: url("../img/background-md.jpg");
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.heading {
+		background-image: url("../img/background-lg.jpg");
+	}
+}
