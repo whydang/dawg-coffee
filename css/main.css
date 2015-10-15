@@ -15,16 +15,30 @@ body {
 	padding: 3em;
 }
 
-h1 {
-	font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
+#menu-section {
+	padding-top: 2em;
+}
+
+dd {
+	font-style: italic;
+	padding-left: 1em;
 }
 
 h2 {
 	color: #BC6026;
 }
 
+
+h1 {
+	font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.mappu {
+	border-radius: 5px;
+}
+
 #info-section {
-	padding: 40px;
+	padding-top: 2em;
 }
 
 #info-section .col-md-4 {
