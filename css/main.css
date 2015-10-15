@@ -85,6 +85,12 @@ p {
 	font-style: italic;
 }
 
+#headline-order {
+	text-align: left;
+	padding-left: 3em;
+	margin: 1em;
+}
+
 .column-header {
 	margin-bottom: 1.5em;
 
