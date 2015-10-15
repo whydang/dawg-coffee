@@ -1,4 +1,3 @@
-/* Your stylesheet goes here */
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic);
@@ -15,6 +14,7 @@ body {
 	padding: 3em;
 }
 
+
 #menu-section {
 	padding-top: 2em;
 }
@@ -28,6 +28,32 @@ h2 {
 	color: #BC6026;
 }
 
+#story {
+	background-color: #dbdce3;
+}
+
+#lady-red {
+	border-radius: 5px;
+	margin-left: 1em;
+	padding-right: 1em;
+	max-height: 300px;
+}
+
+#footer {
+	border-top: solid 3px;
+	border-color: #D87E28;
+	background-color: #afb3c2;
+	margin-top-top: 1em;
+	clear: both;
+	font-size: 12px;
+}
+
+#bordering {
+	color: white;
+	height: 5px;
+	z-index: 5000;
+	width: 100%;
+}
 
 h1 {
 	font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
@@ -39,10 +65,16 @@ h1 {
 
 #info-section {
 	padding-top: 2em;
+	padding-bottom: 1em;
+	background-color: #dbdce3;
 }
 
 #info-section .col-md-4 {
 	text-align: center;
+}
+
+p {
+	padding-top: 10px;
 }
 
 #heading p {
@@ -55,6 +87,7 @@ h1 {
 
 .column-header {
 	margin-bottom: 1.5em;
+
 
 }
 
@@ -79,6 +112,7 @@ h1 {
 }
 
 nav {
+	padding-top: 5px;
 	position: fixed;
 	background-color: #181C22;
 	font-size: 16px;
@@ -101,11 +135,6 @@ nav li {
 	fill: #D87E28;
 }
 
-#info-section {
-	background-color: #dbdce3;
-}
-
-
 
 
 
@@ -113,6 +142,10 @@ nav li {
 @media screen and (min-width: 768px) {
 	body {
 		font-size: 20px;
+	}
+
+	#cpright {
+		text-align: right;
 	}
 
 	#heading {
@@ -145,6 +178,10 @@ nav li {
 	h2 {
 		text-align: center;
 		padding-bottom: 1em;
+	}
+
+	#lady-red {
+		max-height: 400px;
 	}
 
 	nav {
